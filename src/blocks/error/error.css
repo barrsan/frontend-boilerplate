@@ -1,0 +1,45 @@
+.error {
+  height: 100vh;
+
+  &__inner {
+    padding: 0 2rem;
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__code {
+    margin: 0 0 2rem;
+    padding: 2rem;
+    font-size: 4rem;
+    font-weight: 700;
+    color: var(--white);
+    background: var(--sanMarino);
+    border-radius: 0.8rem;
+  }
+
+  &__title {
+    margin: 0 0 1rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+
+  &__message {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.4;
+
+    & a {
+      transition: all 0.2s ease-out 0s;
+      color: var(--mandy);
+      text-decoration: none;
+      border-bottom: 2px solid transparent;
+
+      &:hover {
+        border-color: var(--mandy);
+      }
+    }
+  }
+}

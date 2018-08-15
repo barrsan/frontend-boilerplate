@@ -1,0 +1,9 @@
+include /src/blocks/content/content.pug
+
+- var pageTitle = 'Error | Site name';
+
+doctype html
+html
+  include /src/blocks/head/head.pug
+  body
+    +content('Error', 'error')

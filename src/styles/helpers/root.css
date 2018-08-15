@@ -1,0 +1,18 @@
+:root {
+  /*
+    Colors
+  */
+  --black: rgba(34, 34, 37, 1);
+  --white: rgba(255, 255, 255, 1);
+  --mineShaft: rgba(51, 51, 51, 1);
+  --porcelain: rgba(240, 243, 243, 1);
+  --zircon: rgba(224, 224, 224, 1);
+  --sanMarino: rgba(69, 93, 175, 1);
+  --mandy: rgba(236, 74, 97, 1);
+
+  /*
+    Fonts
+  */
+  --fontRussoOne: 'Russo One', 'Helvetica', 'Tahoma', sans-serif;
+  --fontRubik: 'Rubik', 'Helvetica', 'Arial', sans-serif;
+}

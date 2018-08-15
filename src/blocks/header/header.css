@@ -1,0 +1,6 @@
+.header {
+  display: block;
+  font-weight: bold;
+  color: var(--white);
+  background-color: var(--mineShaft);
+}

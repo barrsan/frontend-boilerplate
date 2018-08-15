@@ -1,0 +1,153 @@
+.b-text {
+  color: var(--mineShaft);
+
+  &_white {
+    color: var(--white);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0 0 10px;
+    font-family: var(--fontRubik);
+    font-weight: 700;
+    line-height: 1.1;
+  }
+
+  h1 {
+    font-size: 2.3rem;
+  }
+
+  h2 {
+    font-size: 2.15rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  h4 {
+    font-size: 1.85rem;
+  }
+
+  h5 {
+    font-size: 1.7rem;
+  }
+
+  h6 {
+    font-size: 1.5rem;
+  }
+
+  p,
+  ul,
+  ol,
+  blockquote,
+  table {
+    margin: 0 0 1.5rem;
+    font-family: var(--fontRubik);
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  ul {
+    list-style: disc;
+  }
+
+  ol {
+    list-style: decimal;
+  }
+
+  ul,
+  ol {
+    padding: 0 0 0 20px;
+
+    li {
+      margin: 0 0 10px;
+      padding: 0 0 0 10px;
+    }
+  }
+
+  blockquote {
+    margin: 3rem auto;
+    padding: 2rem;
+    font-style: italic;
+    color: var(--mineShaft);
+    border-left: 5px solid var(--sanMarino);
+  }
+
+  a {
+    transition: all 0.2s ease-out 0s;
+    text-decoration: none;
+    color: var(--mandy);
+    border-bottom: 2px solid transparent;
+
+    &:hover {
+      border-color: var(--mandy);
+    }
+  }
+
+  a.lb {
+    border-bottom: 0;
+
+    img {
+      transition: all 0.2s ease-out 0s;
+    }
+
+    &:hover {
+      img {
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+        transform: translateY(-3px);
+      }
+    }
+  }
+
+  strong {
+    font-weight: bold;
+  }
+
+  em {
+    font-style: italic;
+  }
+
+  table {
+    thead {
+      font-weight: 700;
+
+      tr {
+        background: var(--porcelain);
+      }
+    }
+
+    tbody {
+      tr {
+        &:nth-child(even) {
+          background: var(--porcelain);
+        }
+      }
+    }
+
+    th,
+    td {
+      padding: 10px;
+      border: 1px solid var(--zircon);
+    }
+  }
+
+  img {
+    margin: 0.5rem auto;
+    max-width: 100%;
+  }
+}
+
+.tableWrap {
+  margin: 0 0 1.5rem;
+  overflow-x: auto;
+}

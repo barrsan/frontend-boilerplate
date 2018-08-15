@@ -1,0 +1,12 @@
+include /node_modules/bemto.pug/bemto.pug
+include ../error/error.pug
+
+
+mixin content(title, type)
+  +b.content
+    +e.inner
+      if (type == 'index')
+        p Hello world!
+
+      if (type == 'error')
+        +error

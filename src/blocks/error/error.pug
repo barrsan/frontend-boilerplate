@@ -1,0 +1,10 @@
+include /node_modules/bemto.pug/bemto.pug
+
+
+mixin error
+  +b.error
+    +e.inner
+      +e.code 404
+      +e.message
+        +e.title= labels.error.title
+        +e.descr!= labels.error.message

@@ -1,0 +1,17 @@
+include /src/blocks/header/header.pug
+include /src/blocks/content/content.pug
+include /src/blocks/footer/footer.pug
+include /src/blocks/scripts/scripts.pug
+
+- var pageTitle = 'Site name';
+- var pageDescription = 'description here';
+- var pageKeywords = 'keywords here';
+
+doctype html
+html
+  include /src/blocks/head/head.pug
+  body
+    +header
+    +content('Index', 'index')
+    +footer
+    +scripts  
